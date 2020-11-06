@@ -14,8 +14,8 @@
         android:id="@+id/main_card_album_image"
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:scaleType="fitXY"
-        tools:ignore="ContentDescription" />
+        android:src="@drawable/ic_mingguo_one"
+        android:scaleType="fitXY" />
 
 </androidx.cardview.widget.CardView>
 
