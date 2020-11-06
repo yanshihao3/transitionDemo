@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zq.transition">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Transition">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".shareelementtransition.browse.ActivityBrowse"/>
+        <activity android:name=".shareelementtransition.ShareElementTransitionMainActivity"/>
+        <activity android:name=".shareelementtransition.sample.SampleShareElementTransitionActivity"/>
+        <activity android:name=".shareelementtransition.sample.NextShareElementTransitionActivity"/>
+        <activity android:name=".scenetransition.SceneTransitionMainActivity"/>
+        <activity android:name=".scenetransition.managergo.slide.SceneSlideActivity"/>
+        <activity android:name=".scenetransition.managergo.SceneManagerGoActivity"/>
+        <activity android:name=".scenetransition.managergo.fade.SceneFadeActivity"/>
+        <activity android:name=".scenetransition.managergo.explode.SceneExplodeActivity"/>
+        <activity android:name=".scenetransition.managergo.combination.SceneCombinationActivity"/>
+        <activity android:name=".scenetransition.managergo.changetransform.SceneChangeTransformActivity"/>
+        <activity android:name=".scenetransition.managergo.changeimagetransform.SceneChangeImageTransformBoundsActivity"/>
+        <activity android:name=".scenetransition.managergo.changeclipbounds.SceneChangeClipBoundsActivity"/>
+        <activity android:name=".scenetransition.managergo.changebounds.SceneChangeBoundsActivity"/>
+        <activity android:name=".scenetransition.managergo.autotransition.SceneAutoTransitionActivity"/>
+        <activity android:name=".scenetransition.delayed.SceneDelayedActivity"/>
+        <activity android:name=".activitytransition.makethumbnailscaleup.MakeThumbnailScaleUpAnimationActivity"/>
+        <activity android:name=".activitytransition.makescenetransition.MakeSceneTransitionActivity"/>
+        <activity android:name=".activitytransition.makescaleup.MakeScaleUpAnimationActivity"/>
+        <activity android:name=".activitytransition.makecustom.MakeCustomerAnimationActivity"/>
+        <activity android:name=".activitytransition.ActivityTransitionMainActivity"/>
+        <activity android:name=".shareelementtransition.browse.BrowseShareElementTransitionActivity"/>
+
+    </application>
+
+</manifest>
